@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reCAPTCHA 인증</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <h2>reCAPTCHA 인증</h2>
+
+    <form action="/verify" method="post">
+        <!-- 여기에 사이트 키를 입력합니다 -->
+        <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+        <input type="submit" value="인증하기">
+    </form>
+
+    <script>
+        // 추가적인 클라이언트 측 코드 (필요한 경우)
+    </script>
+</body>
+</html>
