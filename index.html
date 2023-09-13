@@ -9,12 +9,14 @@
 <body>
     <h2>reCAPTCHA 인증</h2>
 
-    <form action="/verify" method="post">
-        <!-- 여기에 사이트 키를 입력합니다 -->
-        <div class="g-recaptcha" data-sitekey="6LfRzyEoAAAAADx1P4qGNbpz_dIdAL4b_0nodjz0"></div>
-        <input type="submit" value="인증하기">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LdbiB8oAAAAAHpgtdBPqr-UymkvPYHP8Hbn4EWv"></div>
+      <br/>
+      <input type="submit" value="Submit">
     </form>
-
     <script>
         // 추가적인 클라이언트 측 코드 (필요한 경우)
     </script>
